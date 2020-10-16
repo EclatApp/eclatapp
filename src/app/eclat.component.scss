@@ -1,0 +1,18 @@
+
+.construction-website {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  height: 100vh;
+  &-image {
+    background-image: url("../assets/images/construction_website.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3vw;
+    height: 95vh;
+    width: 95vw;
+  }
+
+}
+
+
