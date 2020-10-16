@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { EclatComponent } from './eclat.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    EclatComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [EclatComponent]
 })
 export class AppModule { }
